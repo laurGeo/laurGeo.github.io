@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @font-face { font-family: Floydian; src: url('../fonts/floydian/floyd.TTF'); } 
 
 
@@ -6,12 +7,19 @@
 /*---------------------------------------------------------------------------- Navbar ---*/
 
 .navbar a{
-    font-family: 'Floydian', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 /*----------------------------------------------------------------------------- Socials -*/
 
+a img{
+    height: 50px;
+    width: 50px;
+}
+
 #socials i{
-     color: white;
+    padding-right: 20px;
+    color: white;
+    padding-left: 20px;
 }
 /*---------------------------------------------------------------------------------------*/
 .container{
@@ -35,7 +43,7 @@ h1{
     color: #ffffff;
     font-size: 100px;
     padding-top: 150px;
-    
+     animation: fadein 5s;
 }
 
 body{
@@ -50,6 +58,17 @@ h3{
     
 }
 
+section{
+    padding: 20px;
+}
+/*KEy frames*/
 
-/**/
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
 
