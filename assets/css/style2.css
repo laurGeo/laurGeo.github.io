@@ -31,9 +31,14 @@ img{
     height: 600px;
 }
 
+#gallery img{
+    width: 190px;
+    height: 190px;
+}
+
 .header{
-    background: url("../img/pinkFloydEdit.jpg") no-repeat center center;
-    height: 600px;
+    /*background: url("../img/pinkFloydEdit.jpg") no-repeat center center;
+    height: 600px;*/
     background-size: cover;
 }
 
