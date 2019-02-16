@@ -102,11 +102,11 @@ h3{
 /*-------------------------------------------------------Bookings*/
 
 .about-us-row{
-    background: url("/assets/img/backgroundImg.jpg");
+    background: url("../..//assets/img/backgroundImg.jpg");
 }
 
 .gallery-row{
-    background: url("/assets/img/backgroundImg.jpg");
+    background: url("../..//assets/img/backgroundImg.jpg");
 }
 /*------------------------------------------------------------*/
 #bookings{
