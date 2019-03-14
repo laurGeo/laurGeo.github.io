@@ -12,11 +12,11 @@
     background-color: rgba(0,0,0,.95);
 }
 /*----------------------------------------------------------------------------- Socials -*/
-
+/*
 a img{
     height: 50px;
     width: 50px;
-}
+} */
 
 #socials-footer a{
     padding: 10px;
@@ -30,7 +30,7 @@ a img{
 }
 /*---------------------------------------------------------------------------------------*/
 .container{
-    background-color: black;
+  /*  background-color: black;*/
 }
 
 
@@ -92,7 +92,7 @@ P{
 
 
 h3{
-    font-family: 'Floydian', sans-serif;
+    font-family: 'monospace', sans-serif;
     color: #e46a68;
 }
 
@@ -111,6 +111,10 @@ h3{
 /*------------------------------------------------------------*/
 #bookings{
     color: #3f3f3f;
+}
+
+.bookings-row{
+    background-image: url('../../assets/img/PFGallery3.jpg');
 }
 
 /**/
@@ -174,7 +178,8 @@ hr{
    text-align: center;
 }
 section{
-    padding: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 /*KEy frames*/
 
