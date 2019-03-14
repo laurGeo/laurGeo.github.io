@@ -12,11 +12,10 @@
     background-color: rgba(0,0,0,.95);
 }
 /*----------------------------------------------------------------------------- Socials -*/
-/*
-a img{
-    height: 50px;
-    width: 50px;
-} */
+img{
+    height: 100%;
+    width: 100%;
+} 
 
 #socials-footer a{
     padding: 10px;
